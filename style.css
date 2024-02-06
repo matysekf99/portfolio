@@ -1,0 +1,29 @@
+.intro-competences{
+    display: flex;
+    height: 20em;
+
+    border: solid black 1px;
+    padding: 5px;
+}
+
+.partie-gauche {
+    border: solid black 1px;
+    margin: 5px;
+    flex: 1;
+
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partie-droite {
+    border: solid black 1px;
+    margin: 5px;
+    flex: 1;
+
+    text-align: center;
+}
+
+
+
