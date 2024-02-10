@@ -1,20 +1,54 @@
 body{
     margin: 1em;
+    background-color: rgb(15 23 42);
 }
 
-/* .intro-competences{
-    
-} */
+.curseur{
+    width: 3.5em;
+    height: 3.5em;
+
+    border: 2px solid rgb(226 232 240);
+    opacity: 0.5;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+h1{
+    color: rgb(226 232 240);
+    font-size: 3em;
+}
+
+h3{
+    color: rgb(226 232 240);
+    font-size: 1.5em;
+}
+
+p{
+    color: #94a3b8;
+}
+
+b{
+    color: rgb(226 232 240);
+}
+
 
 .intro{
-    border: solid black 1px;
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
     margin-bottom: 1%;
+    height: 25em;
 
     display: flex;
 }
 
 .partie-gauche {
-    border: solid black 1px;
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
     margin: 0.5%;
     
     flex: 1;
@@ -24,8 +58,10 @@ body{
     align-items: center;
 }
 .partie-droite {
-    border: solid black 1px;
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
     margin: 0.5%;
+    padding: 0.5%;
 
     flex: 1;
     display: flex;
@@ -36,26 +72,76 @@ body{
 
 
 .competences{
-    border: solid black 1px;
-    height: 10em;
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
+}
 
-    /* display: flex;
-    flex-direction: column; */
+.titre_competences{
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
+    margin: 0.5%;
+    height: 4em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre_competences h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.titre_c{
+    font-size: 2em;
+}
+
+
+.descriptions-competences{
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
+    margin: 0.5%;
+    height: 12em;
+}
+
+
+.categorie{
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
+    height: 3em;
+    margin: 0.5%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h4{
+    color: #94a3b8;
 }
 
 .icones{
-    border: solid black 1px;
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
     margin: 0.5%;
-    /* flex: 1; */
-    height: 40%;
+    height: 5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.description-comptences{
-    border: solid black 1px;
-    margin: 0.5%;
-    /* flex: 1; */
-    height: 40%;
+.icones img{
+    width: 4em;
+    height: 4em;
 }
 
+
+.nom_competences{
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
+    margin: 0.5%;
+    height: 2.3em;
+}
 
 
