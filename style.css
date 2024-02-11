@@ -86,6 +86,7 @@ a {
 .competences{
     border: solid #e5e7eb 1px;
     border-radius: 10px;
+    padding-bottom: 1.5em;
 }
 
 .titre_competences{
@@ -113,7 +114,8 @@ a {
     border: solid #e5e7eb 1px;
     border-radius: 10px;
     margin: 0.5%;
-    height: 16em;
+    height: 17em;
+    background-color: #0b283d;
 }
 
 
@@ -304,4 +306,12 @@ a {
 .details .comp-ic{
     width: 8em;
     text-decoration: underline;
+}
+
+.mots-glisses .titre_description p{
+    margin-top: 3em;
+}
+
+.mots-glisses .titre_description h4{
+    margin-top: 1em;
 }
