@@ -1,3 +1,4 @@
+// déplace "curseur" selon le mouvement de la souris
 const curseur = document.getElementById("curseur")
 
 window.addEventListener("mousemove", function(e){
