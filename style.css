@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(15 23 42);
+    background-color: #0f172a;
 }
 
 .intro-competences{
@@ -41,6 +41,11 @@ p{
 
 b{
     color: #e2e8f0;
+}
+
+a {
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    color: inherit; /* Utilise la couleur du texte par défaut de l'élément parent */
 }
 
 
@@ -193,7 +198,7 @@ b{
     width: 1000px;
     margin: auto;
     margin-top: 0.3em;
-    height: 100em;
+    height: 125em;
 }
 
 .projets h3{
@@ -206,25 +211,30 @@ b{
     border: solid #e5e7eb 1px;
     border-radius: 10px;
     margin: 0.5em;
-    margin-top: 1.5em;
-    height: 22em;
+    margin-top: 3.5em;
+    height: 26em;
+    background-color: #0b283d;
 }
 
-.kaggle{
+.mots-glisses{
+    height: 30em;
+}
+
+.titre-image-k{
     display: flex;
 }
 
-.kaggle div{
+.titre-image-k div{
     border: solid #e5e7eb 1px;
     border-radius: 10px;
     margin: 1em;
 }
 
-.kaggle .titre_description{
+.titre-image-k .titre_description{
     flex: 1.8;
 }
 
-.kaggle .image{
+.titre-image-k .image{
     flex: 1.2;
 }
 
@@ -233,4 +243,65 @@ b{
     color: #e2e8f0;
     text-align: center;
     margin: 0.2em;
+}
+
+.titre_description{
+    display: flex;
+    flex-direction: column;
+    background-color: #153852;
+}
+
+.titre_description p{
+    text-align: center;
+    margin: 1em;
+}
+
+.details{
+    border: solid #e5e7eb 1px;
+    border-radius: 10px;
+    margin: 1em;
+    margin-top: 0;
+    height: 3em;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.details p{
+    border: solid #4d607a 1px;
+    border-radius: 10px;
+    text-align: center;
+    width: 5em;
+    height: 1.3em;
+    line-height: 1.3em;
+    color: #e2e8f0;
+    background-color: #4d607a;
+}
+
+
+.details .lien-github{
+    width: 10em;
+    height: 1.7em;
+    line-height: 1.7em;
+    color: #4d607a;
+    border: solid #c9d2dd 1px;
+    background-color: #c9d2dd;
+}
+
+
+.projets img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.kaggle{
+    margin-top: 1em;
+}
+
+.details .comp-ic{
+    width: 8em;
+    text-decoration: underline;
 }
