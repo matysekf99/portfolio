@@ -75,7 +75,7 @@ a {
     border: solid #e5e7eb 1px;
     border-radius: 10px;
     margin: 0.5%;
-    padding: 0.5%;
+    padding: 3%;
 
     flex: 1;
     display: flex;
@@ -418,4 +418,179 @@ a {
         display: block;
         margin: auto;
     }
+
+
+    .details > * {
+        order: 1; /* Tous les éléments ont le même ordre */
+    }
+    
+    .lien-github {
+        order: 2; /* Le lien a un ordre supérieur, donc il apparaîtra à la fin */
+    }
+
   }
+
+  @media  screen and (max-width: 850px) {
+    /* body{
+        background-color: red;
+    } */
+
+    .intro-competences {
+        width: 95%;
+        margin: auto;
+    }
+    .intro{
+        flex-direction: column;
+        margin: auto;
+        width: 95%;
+        height: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .competences{
+        width: 95%;
+        margin: auto;
+        justify-content: center;
+    }
+    .curseur{
+        display: none;
+    }
+
+    .projets{
+        width: 95%;
+
+        margin: auto;
+        height: 100%;
+    }
+
+    .kaggle .titre-image-k,
+    .appelLDV .titre-image-k {
+        flex-direction: column;
+    }
+
+    .mots-glisses .titre-image-k,
+    .extension .titre-image-k {
+        flex-direction: column-reverse;
+    }
+
+
+
+    .kaggle, .mots-glisses, .appelLDV, .extension {
+        border: solid #e5e7eb 1px;
+        border-radius: 10px;
+        margin-top: 3.5em;
+        height: 100%;
+
+
+    }
+
+    .projets img{
+        width: 19em;
+        height: 19em;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+    }
+    
+    
+    .details {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 100%;
+    }
+
+
+    .descriptions-competences{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        padding: 20px;
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+    .categorie{
+        flex-direction: column;
+        height: 40em;
+    }
+    .cat_prog, .cat_web, .cat_ver{
+        height: 100%;
+        flex: 0;
+    }
+    .cat_prog{
+        flex: 3.3;
+        line-height: 12em;
+    }
+    .cat_web{
+        flex: 3.3;
+        padding-top: 8em;
+    }
+    .cat_ver{
+        flex: 0.8;
+    }
+    
+
+    .icones{
+        flex-direction: column;
+        height: 100%;
+        gap: 25px;
+    }
+    .nom_competences{
+        flex-direction: column;
+        height: 100%;
+        gap: 10px;
+    }
+    .html_icone{
+        margin-top: 1.3em;
+    }
+
+    .nom_competences .python{
+        margin-left: 0em;
+        margin-top: 1em;
+        margin-bottom: 0em;
+    }
+    .nom_competences .bibliotheques_py{
+        margin-left: 0em;
+        margin-top: 0;
+    }
+    .nom_competences .bibliotheques_py{
+        margin-left: 0em;
+        margin-top: 0;
+    }
+    .html_desc{
+        margin-bottom: 2em;
+    }
+    .css_desc{
+        margin-bottom: 1.5em;
+    }
+    .button_footer{
+        gap:3em;
+    }
+
+    .titre_pinc{
+        text-align: center;
+    }
+
+    .sous-titre{
+        text-align: center;
+    }
+}
+
+
+@media  screen and (max-width: 400px) {
+    .projets img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media  screen and (max-width: 360px) {
+    .descriptions-competences{
+        gap:0px;
+    }
+}
+
+
+
