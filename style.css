@@ -513,6 +513,7 @@ a {
     .categorie{
         flex-direction: column;
         height: 40em;
+        align-items: normal;
     }
     .cat_prog, .cat_web, .cat_ver{
         height: 100%;
@@ -521,13 +522,27 @@ a {
     .cat_prog{
         flex: 3.3;
         line-height: 12em;
+
+        border-right: solid #e2e8f0 2px;
+        border-radius: 0;
+        padding-right: 10px;
+
     }
     .cat_web{
         flex: 3.3;
         padding-top: 8em;
+
+        border-right: solid #e2e8f0 2px;
+        border-radius: 0;
+        padding-right: 10px;
     }
     .cat_ver{
-        flex: 0.8;
+        flex: 1.3;
+        padding-top: 2em;
+
+        border-right: solid #e2e8f0 2px;
+        border-radius: 0;
+        padding-right: 10px;
     }
     
 
