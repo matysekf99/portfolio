@@ -1,6 +1,6 @@
 body{
     background-color: #0f1729;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .intro-competences{
@@ -88,7 +88,7 @@ a {
     justify-content: center;
     text-align: center;
     /* background-color: #0b283d; */
-    background-color: #1D2C4E;
+    background-color: #0b283d;
 }
 
 
