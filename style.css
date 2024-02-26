@@ -39,9 +39,10 @@ a {
 .intro{
     border-radius: 10px;
     margin-bottom: 1%;
-    height: 25em;
+    height: 100%;
 
     display: flex;
+    flex-direction: column;
 }
 
 .partie-gauche {
@@ -58,15 +59,15 @@ a {
 
 .partie-droite {
     border-radius: 10px;
-    margin: 0.5%;
+    margin: auto;
     padding: 3%;
+    width: 75%;
 
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    background-color: #0b283d;
+    text-align: center;   
 }
 
 
